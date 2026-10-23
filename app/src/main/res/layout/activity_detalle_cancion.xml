@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#121018">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VX MUSIC"
+        android:textColor="#B388FF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETALLE DE LA CANCIÓN"
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/imgPortada"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/banner"
+        android:scaleType="centerCrop"
+        android:contentDescription="Portada de VX MUSIC"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/textDetalleTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título de la canción"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/textDetalleArtista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del artista"
+        android:textColor="#B388FF"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnVolverDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLVER A MI BIBLIOTECA"
+        android:textStyle="bold"
+        android:textColor="#B388FF"
+        android:backgroundTint="#30243F"
+        android:padding="12dp"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>

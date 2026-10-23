@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#121018">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VX MUSIC"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#B388FF"
+        android:gravity="center"
+        android:letterSpacing="0.12"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TU MÚSICA, TU ESTILO"
+        android:textSize="12sp"
+        android:textColor="#AAAAAA"
+        android:gravity="center"
+        android:letterSpacing="0.15"
+        android:layout_marginBottom="36dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AÑADIR CANCIÓN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la canción"
+        android:inputType="textCapSentences"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="#B388FF"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/editEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del artista"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="#B388FF"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnAñadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AÑADIR CANCIÓN"
+        android:textStyle="bold"
+        android:textColor="#121018"
+        android:backgroundTint="#B388FF"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnBiblioteca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MI BIBLIOTECA"
+        android:textStyle="bold"
+        android:textColor="#B388FF"
+        android:backgroundTint="#30243F"
+        android:padding="12dp" />
+
+</LinearLayout>
